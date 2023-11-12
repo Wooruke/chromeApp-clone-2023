@@ -1,0 +1,133 @@
+.hidden {
+  display: none;
+}
+
+img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  object-fit: cover;
+  background-size: cover;
+  opacity: 0.9;
+}
+
+.header-weather {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  opacity: 0.9;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 200px;
+  margin-right: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content .content-clock {
+  font-size: 80px;
+  color: white;
+  opacity: 0.9;
+}
+
+.content .content-clock #clock {
+  margin: 40px 0px;
+  margin-bottom: 0px;
+}
+
+.content .content-login input {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 10px;
+  margin: 10px;
+  font-size: 48px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.9);
+}
+
+.content .content-login input::placeholder {
+  color: white;
+  opacity: 0.9;
+}
+
+.content .content-login input:focus {
+  outline: none;
+}
+
+.content .content-login button {
+  font-size: 20px;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+
+#greeting {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 60px;
+}
+
+#todo-form {
+  display: flex;
+  justify-content: center;
+}
+
+#todo-form input {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.9);
+  font-size: 24px;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  padding: 5px;
+}
+
+#todo-form input::placeholder {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 20px;
+}
+
+#todo-form input:focus {
+  outline: none;
+}
+
+#todo-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 0px;
+  margin-top: 10px;
+  margin-left: 900px;
+}
+
+#todo-list li {
+  list-style: circle;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+#todo-list li button {
+  margin-left: 10px;
+}
+
+#quote {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+#quote span:first-child {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
